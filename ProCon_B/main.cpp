@@ -45,13 +45,11 @@ template <class T = int> void out(T x) { cout << (x) << endl; }
 ll gcd(ll a, ll b) { return b ? gcd(b, a%b) : a; }
 
 // value
-int a, b;
+
 
 void solve() {
 
-    cin >> a >> b;
-
-    cout << (a * b % 2 ? "Odd" : "Even") << endl;
+    
 
 	return;
 
